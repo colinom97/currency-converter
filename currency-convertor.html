@@ -18,9 +18,18 @@
         <div class="description">
 			<p>Please input a monetary value.</p>
 
-			<p>Amount: </p><input type="text" name="value1" id="value1"><br>
+			<p>Amount: </p><input type="text" name="value1" id="value1"></input><br>
 
-			<button class="button" onclick="euroToPounds()">Convert</button>
+			<button class="button" onclick="euroToPounds()"> Pounds </button>
+			//creating Us Dollar button 
+			<input type="text" name="value2" id="value2"></input>
+			<button class="button" onclick="euroToUSDollars()"> Us Dollars </button>
+			// creating Japanese Yen button 
+			<input type="text" name="value3" id="value3"></input>
+			<button class="button" onclick="euroToJapYen()"> Japanese Yen </button>
+			//creating bitcoin button 
+			<input type="text" name="value4" id="value4"></input>
+			<button class="button" onclick="euroToBitcoin()"> Bitcoin </button>
 
 			<p id="resultsentence"></p>
         </div>
