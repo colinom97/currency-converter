@@ -11,7 +11,7 @@ function euroToPounds(){
 function euroToUSDollars(){
 	var amount = parseInt(document.getElementById("Value2").value);
 	var amount = 1;
-	var usdollars = 1.06;
+	var usdollars = amount * 1.06;
 	var message = amount + ' euro converts to ' + usdollars + ' US Dollars';
 	  cansole.log(message);
   doc.getElementById("resultsentence").innerHTML = message;
@@ -20,7 +20,7 @@ function euroToUSDollars(){
 function euroToJapYen (){
 	var amount = parseInt(document.getElementById("Value3").value);
 	var amount = 1;
-	var japyen = 121.12;
+	var japyen = amount * 121.12;
 	var message = amount + ' euro converts to ' + japyen + ' Japanese Yen';
 	  cansole.log(message);
   doc.getElementById("resultsentence").innerHTML = message;
@@ -29,7 +29,7 @@ function euroToJapYen (){
 function euroToBitcoin (){
 	var amount = parseInt(document.getElementById("Value4").value);
 	var amount = 1;
-	var bitcoin = 0.00082;
+	var bitcoin = amount * 0.00082;
 	var message = amount + ' euro converts to ' + bitcoin + ' Bitcoin';
 	  cansole.log(message);
   doc.getElementById("resultsentence").innerHTML = message;
